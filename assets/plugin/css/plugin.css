@@ -1,0 +1,396 @@
+/* edit box */
+div#TB_window {
+    width: 375px!important;
+    margin-left: -187.5px!important;
+}
+
+div#TB_ajaxContent {
+    width: 345px!important;
+}
+
+/* edition */
+.edition_container{
+    position:relative;
+}
+
+.licenseoverlay {
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 100;
+}
+
+/* Edition */
+ fieldset.professional {
+    border-color: orange !important;
+    border: 1px solid black;
+    margin: 15px 15px 15px 0;
+    padding: 15px;
+}
+
+ fieldset.professional img {
+ 	width:100%;
+ }
+ legend.professional {
+    color: orange !important;
+    font-size:16px;
+}
+
+.edtion_note{
+    color:darkgray;
+    font-size:10px;
+}
+/* End Edition */
+
+/* Common */
+
+
+/* table */
+.okd_table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 14px;
+    position: relative;
+    width:100%;
+}
+
+.nohover .okd_table > tbody > tr:hover {
+    background: none;
+}
+
+.okd_table > tbody > tr:hover /* 2015/8/6 */ {
+    background-color: #f5f5f5;
+}
+
+.okd_table > tbody > tr > th {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.okd_table > tbody > tr > td {
+    font-size: 12px;
+}
+
+    .okd_table > tbody > tr > td > a, .okd_table > tbody > tr > td > input.action_checkbox {
+        margin: 0px 2px;
+    }
+
+.okd_table > tbody > tr > th, .okd_table > tbody > tr > td {
+    padding: 5px 8px;
+    border-bottom-width: 2px;
+    border: 1px solid #DDD;
+    text-align: left;
+}
+
+.okd_table input[type=checkbox] {
+    margin: 0px;
+    outline: medium none;
+}
+/* Analytics */
+
+.cf7sh_table {
+    height: 300px;
+    overflow-y: scroll;
+    width: 50%;
+}
+
+    .cf7sh_table th {
+        font-weight: 600;
+    }
+
+.cf7sh_chart {
+    width: 50%;
+}
+    .cf7sh_chart > div {
+        height: 300px;
+        width: 100%;
+    }
+
+.chartblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vr_op_table td {
+    padding: 0 5px;
+}
+
+    .vr_op_table td:nth-child(2) {
+        padding-top: 7px;
+    }
+
+.pagination-links .page-numbers.current {    
+     background: #2059a6;
+    color: white; 
+    border: 1px solid #2059a6;
+}
+.pagination-links .page-numbers,.displaying-num {
+    background: white;
+    color: black;   
+    padding: 3px 9px;
+    border: 1px solid #898989;
+    box-shadow: none;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.pagination-links .page-numbers:hover {
+    background: #2059a6;
+    color: white; 
+    border: 1px solid #2059a6;
+}
+
+.tablenav-pages {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    width: auto!important;
+    z-index: 10000;
+}
+
+.SubHead {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cf7sh_field_flex {
+    display: flex;
+}
+
+.cf7sh_data {
+    width: 50%;    
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.cf7sh_field_title{
+	color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cf7sh_field {
+    display: flex;
+}
+
+.cf7sh_field_item {
+    margin: 2px 5px;
+}
+
+.cf7sh_field_item.cf7sh_field_title {
+    min-width: 25%;
+    text-align: right;
+}
+
+.selectall{
+	padding-top: 4px;
+}
+
+input#cb-select-all-item {
+    margin-top: 1px;
+}
+
+.cf7sh-edit-value {
+    font-size: 16px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #898989;
+    padding: 3px 1px 0px 3px;
+}
+
+.cf7sh-edit-value:hover{
+	background-color: #2059a6;
+    color: white;
+    border: 1px solid #2059a6;
+}
+
+
+.cf7sh_data_fields {
+    width: 100%;
+}
+
+
+#cf7sh-list-field li {
+  border: 1px solid #ddd;
+  cursor: move;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  position: relative;
+}
+#cf7sh-list-field li .label {
+  width: 120px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  font-style: italic;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#cf7sh-list-field li > input {
+    padding: 2px 4px;
+    box-shadow: none;
+    border-radius: 3px;
+    border-color: #32EDAB;
+}
+#cf7sh-list-field li span.dashicons {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+#cf7sh-list-field li.sortable-placeholder {
+    border-style: dashed;
+}
+#cf7sh-modal-footer, .cf7sh-modal-footer {
+  background: #fff none repeat scroll 0 0;
+  border-top: 1px solid #ccd1d9;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 60px;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  z-index: 2;
+}
+#cf7sh-modal-footer .button {
+    padding: 0 30px;
+}
+#cf7sh-list-field.ui-sortable li.hide {
+  display: block;
+}
+#cf7sh-modal-form {
+  padding-bottom: 65px;
+}
+
+/*
+ * Mobile skin
+ */
+.cf7sh-admin-table.horizontal thead th.manage-column, .horizontal tfoot {
+    display: none;
+}
+.cf7sh-admin-table.horizontal tbody tr td {
+  display: block;
+  min-height: 20px;
+  position: relative;
+  width: 100%;
+  clear: both;
+}
+/*.cf7sh-admin-table.horizontal tbody tr td:hover {
+  background-color: #bfbd9d;
+}*/
+.cf7sh-admin-table.horizontal tbody tr td::before {
+    content: attr(data-head);
+    display: block;
+    float: left;
+    font-weight: bold;
+    overflow-x: auto;
+    padding: 0 0 0 0;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cf7sh-admin-table > tbody > :nth-child(2n+1) {
+  background-color: #f6f6f6;
+}
+.cf7sh-switch-theme-horizontal {
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.cf7sh-switch-theme::before {
+    font-size: 28px !important;
+}
+.cf7sh-switch-theme {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.cf7sh-switch-theme.active::before {
+    color: #ff0000;
+}
+
+
+/*
+ * Edit value
+ */
+#cf7sh-list-field-for-edit li span.label {
+  display: block;
+  float: left;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 120px;
+}
+
+/*
+ * Export
+ */
+#cf7sh-export {
+  float: none;
+}
+
+#cf7sh-list-field-for-edit {
+  padding-bottom: 100px;
+}
+
+#cf7sh_setting_form {
+  display: inline-block;
+  margin: 0;
+}
+/*
+ * Hide empty fields
+ */
+.cf7sh-st-toggle-hide-empty-fields {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.cf7sh-st-toggle-hide-empty-fields p {
+    margin: 0;
+}
+
+.cf7sh_col_hide_on_vertical{
+  display: none !important;
+}
+
+/*--------- CSS Reset for Mobile ----------*/
+@media handheld, only screen and (max-width: 767px) {
+	.cf7sh_data{
+		width:100%;
+	}
+	
+	.cf7sh_field_flex {
+    display: block;
+	}
+	
+	.chartblock{
+		display:block;
+	}
+	
+	.cf7sh_chart{
+		width:100%;
+	}
+	
+	.cf7sh_table{
+		width:100%;
+	}
+}

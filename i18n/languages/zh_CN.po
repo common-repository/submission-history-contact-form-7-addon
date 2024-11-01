@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Submission History - Contact Form 7 Addon\n"
+"POT-Creation-Date: 2021-03-23 17:55+0800\n"
+"PO-Revision-Date: 2021-03-23 17:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: main.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/API/API.php:82
+msgid "Fields is missing."
+msgstr "缺失的字段."
+
+#: includes/API/API.php:94
+msgid "Required fields are missing."
+msgstr "缺少必要的字段."
+
+#: includes/Analytics/Products/Chart1.php:64
+#: includes/Analytics/Products/Chart2.php:64
+#: includes/Analytics/Products/Chart3.php:65
+msgid "Row"
+msgstr "行"
+
+#: includes/Analytics/Products/Chart1.php:64
+#: includes/Analytics/Products/Chart2.php:64
+#: includes/Analytics/Products/Chart3.php:65
+msgid "Date"
+msgstr "日期"
+
+#: includes/Analytics/Products/Chart1.php:64
+msgid "Number Of Submission"
+msgstr "提交数量"
+
+#: includes/Analytics/Products/Chart2.php:64
+msgid "Number Of View"
+msgstr "查看数量"
+
+#: includes/Analytics/Products/Chart3.php:65 views/pages/html-analytics.php:156
+msgid "Conversion rate"
+msgstr "转化率"
+
+#: includes/Hooks.php:81
+msgid "Start date"
+msgstr "起始日期"
+
+#: includes/Hooks.php:82
+msgid "End date"
+msgstr "结束日期"
+
+#: includes/Hooks.php:87
+msgid "Enter search key"
+msgstr "请输入搜索关键字"
+
+#: includes/Hooks.php:91
+msgid "Search"
+msgstr "搜索"
+
+#: includes/Hooks.php:132
+msgid "Export to..."
+msgstr "导出..."
+
+#: includes/Hooks.php:133
+msgid "CSV"
+msgstr ""
+
+#: includes/Hooks.php:135
+msgid "Export"
+msgstr "导出"
+
+#: includes/Hooks.php:189
+msgid "Loading..."
+msgstr "加载中..."
+
+#: includes/Hooks.php:195
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: includes/Hooks.php:205 includes/Hooks.php:212
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/Pages.php:64 views/pages/html-submission-history.php:4
+msgid "Submission History"
+msgstr "提交历史"
+
+#: includes/Pages.php:71 views/pages/html-analytics.php:6
+msgid "Analytics"
+msgstr "分析"
+
+#: views/pages/html-analytics.php:24 views/pages/html-submission-history.php:20
+msgid "Current Form:"
+msgstr "当前表单:"
+
+#: views/pages/html-analytics.php:25 views/pages/html-submission-history.php:21
+msgid "-- Select Form --"
+msgstr "-- 选择表单 --"
+
+#: views/pages/html-analytics.php:106
+msgid "Daily submission"
+msgstr "每日提交"
+
+#: views/pages/html-analytics.php:119 views/pages/html-analytics.php:144
+msgid "Count"
+msgstr "数量"
+
+#: views/pages/html-analytics.php:131
+msgid "Daily View"
+msgstr "每日查看"
+
+#: views/pages/html-analytics.php:171
+msgid "Rate"
+msgstr "转化率"
+
+#: views/pages/html-submission-history.php:46
+msgid "Delete"
+msgstr "删除"
+
+#: views/pages/html-submission-history.php:59
+msgid "Select bulk action"
+msgstr ""
+
+#: views/pages/html-submission-history.php:61
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: views/pages/html-submission-history.php:64
+msgid "Are you sure you want to delete?"
+msgstr "你确定要删除吗?"
+
+#: views/pages/html-submission-history.php:64
+msgid "Please select an action."
+msgstr "请选择一个操作."
+
+#: views/pages/html-submission-history.php:64
+msgid "Apply"
+msgstr "应用"
+
+#: views/pages/html-submission-history.php:67
+msgid "Select All: "
+msgstr "选择所有: "
+
+#: views/pages/html-submission-history.php:71
+msgid "item"
+msgstr "条目"
+
+#: views/pages/html-submission-history.php:72
+msgid "items"
+msgstr "条目"
+
+#: views/pages/html-submission-history.php:78
+msgid "&laquo;"
+msgstr ""
+
+#: views/pages/html-submission-history.php:79
+msgid "&raquo;"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Submission History - Contact Form 7 Addon"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.onekeydone.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "test"
+msgstr "测试"
+
+#. Author of the plugin/theme
+msgid "OneKeyDone"
+msgstr ""
+
+#~ msgid "Your request can't be processed."
+#~ msgstr "请求处理失败."
+
+#~ msgid "Current Form: "
+#~ msgstr "当前表单: "
